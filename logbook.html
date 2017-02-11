@@ -1,0 +1,156 @@
+<html>
+<style>
+
+#header {
+    background-color: red;
+    color:white;
+    text-align:center;
+    padding:2px;
+}
+
+#nav {
+	font-family: Helvetica ;
+	background-color: black;
+    color: #FFFFFF ;
+    text-align: center;
+    border-style: solid;
+    border-bottom-color: black;
+    padding:5px;
+    position: relative;
+
+}
+
+  
+ a{
+    color: white;
+  }
+  
+  h1 {
+  	font-family: Helvetica ;
+  	font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+    h2 {
+  	font-family: Helvetica ;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  
+ body {
+    background-color:white;
+}
+  
+ form{
+	    background: #F8F8F8 ;
+		float:left ;
+		width: 640px;
+	    margin-left: 500px;
+		padding: 20px;
+		border-style: solid;
+		border-color: black;
+		position: relative;
+		top: 5% ;
+	}
+	
+textarea {
+	border-style: ridge;
+	border-color: white;
+	color: black;
+    width: 480px;
+}
+
+input{
+	border-style: solid;
+	border-color:white;
+    border-bottom-color:#000000;
+	font-family : Helvetica;
+	font-size: 16px ;
+	color: black;
+	width: 480px;
+}
+
+ select{
+ 	border-style: ridge;
+	color: black;
+	border-color: black;
+ }
+
+button{
+	border-style: solid;
+	border-color: black;
+	color: black;
+    width: 320px;
+}
+
+</style>
+
+<div id="header">
+		<h1>UCSI UNIVERSITY</h1>
+
+</div>
+
+<div id="nav" >
+	<h2> 
+	  <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://iis.ucsiuniversity.edu.my/Student/Default.aspx?PossePresentation=Library&PosseObjectId=1754620">Resources</a></li>
+      <li><a href="#">Messsages</a></li>
+    </ul>
+    </h2>
+ 
+ </div>
+<body>
+
+<form action="logbook.php" method="post">
+
+<p>ID: </p>
+<div id="id">
+<input type="text" name="student_id" value=" ">
+</div>
+<br>
+<br>
+<p>Name :</p>
+<div id ="name">
+<input type="text" name="name" value=" ">
+</div>
+<br>
+
+<br>
+<p>Date:</p>
+<div id="date">
+<input type="date" name="date" value=" ">
+</div>
+
+<br>
+
+<p>Faculty: </p>
+<div id = "faculty">
+	<input type="text" name="faculty" value=" ">
+</div>
+
+
+<p>Comments:</p><br>
+<div id = "comment">
+<input type="text" name="comment" value=" ">	
+</div>
+
+<br>
+<button type="submit" value="Submit">Submit</button>
+
+
+</form>
+
+</body>
+
+<footer>
+	
+</footer>
+</html>

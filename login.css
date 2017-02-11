@@ -1,0 +1,45 @@
+#wrapper{
+	background-color: #580000 ;
+	position:absolute ;
+    top:0px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+body {
+	  background-color: white;
+	  padding: 100px;
+	  margin-left: 500px;
+      background-size: cover;
+      color: black;
+      font-family: helvetica;
+    }
+  
+form {
+		background: white;;
+		padding: 40px;
+		position: absolute;
+		text-align: center;
+}
+  
+input {
+      border-width: 5px;
+      border-style: solid ;
+	  border-color: black ;
+      padding: 10px;
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+ 
+    }
+
+button{
+	 border-style: outset ;
+	 border-color: black ;
+}
+   
+
+   
+  
+
+

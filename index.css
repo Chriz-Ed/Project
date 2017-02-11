@@ -1,0 +1,43 @@
+#wrapper{
+	background-color: red ;
+	position:absolute ;
+    top:0px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+  
+ a{
+    color: white;
+  }
+  
+  h1 {
+  	font-family: Helvetica ;
+    font-size:48px;
+    color:#FFFFFF ;
+    text-align: center
+  }
+  
+#links {
+	position: absolute;
+	top:120px ;
+	width: 100%;
+    background: black;
+    text-align: center
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  #announcment{
+		background: #fff;
+		float:left ;
+		width:: 480px ;
+	    margin-left: 500px;
+		padding: 20px;
+		border-style: solid;
+		position: absolute;
+		top: 200px ;
+	}
