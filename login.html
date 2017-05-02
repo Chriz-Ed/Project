@@ -1,112 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="login.css">
 
-<style>
-  
- a{
-    color: white;
-  }
-  
-  h3 {
-  	font-family:Arial ;
-  	font-size: 24px;
-    color:black;
-    font-weight: bold;
-    text-align: center ;
-    top: 0px;
-  }
-
-	p{
-  	font-family:Helvetica;
-    font-size: 16px;
-    color:black;
-    font-weight: bold;
-    text-align: center ;
-    top: 0px;
-  }
- 
- body {
-    background-color: #white;
-}
-   
-form{
-	    background: #fff;
-		float:left ;
-		height:380px;
-		width: 480px;
-	    margin-left: 500px;
-		padding: 20px;
-		border: 10px ;		
-		border-style: solid;
-		border-color: black;
-		position: absolute;
-		top: 130px ;
-	}
-	
-input{
-	border-style: solid;
-	border-color:white;
-    border-bottom-color:#000000;
-	font-family : Helvetica;
-	font-size: 16px ;
-	color: black;
-	width: 480px;
-}
-
-img{
-	margin-left:200px;
-}
-
- select{
- 	border-style:outset;
-	color: black;
-	border-color: red;
- }
- 
- button{
- 	   border-color: silver;
- 	   border-style:solid;
- 	   background: white;
- 	   color: black;
- 	   font-family: Helvetica;
- 	   font-weight: bold;
- 	   margin-left: 200px;	   
- 	   
- }
-
-</style>
+</head>
 
 
 <body>
-<form name="form" method="post" action="login.php">
-	<h3>
-	Sign In	
-	</h3>
-   <img src="user.png" alt="USER" style="width:92px;height:99px">
-   <br>
 
-<p>User_ID:</p> 
-<input name="id" type="text" id="User_ID">
+
+<!--<div class="container-fluid"> -->
+
+<div class="panel panel-default">
+  <div class="panel-body">
+  	<h1>Universidade</h1>
+  </div>
 </div>
 
-<br>
-<p>Password: </p> 
-<div id="id">
-<input name="password" type="password" id="Password">
-</div>
 
-<br>
-<button type="submit" id="Log_In">SUBMIT</button>
+<h2>Final Year Project Management System</h2>
+
+<div class="container" >
+<!-- log In form -->
+<form>
+    
+  <div class="form-group">
+    <label for="email">Student ID:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+    
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  
+  <button type="submit" class="btn btn-default">Submit</button>
 </form>
-
+</div>
 </body>
+
 
 <footer>
 	
-</footer>
-</html>
-
-<footer>
 	
 </footer>
 </html>

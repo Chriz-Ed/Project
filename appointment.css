@@ -10,7 +10,7 @@ body {
 form {
 		background: white;
 		font-family: Arial, Helvetica, sans-serif;
-		text-align: center;
+		
 }
 
 .panel-body {
@@ -19,7 +19,6 @@ form {
 	background-color: white;
     border-color: #000080 ;
 	color:  #000080 ; 
-	text-align: center;
 }
 
 .form-control{
@@ -31,6 +30,10 @@ form {
 	 border-color: blue ;
 	 border style: solid;
 	 border: 0 px;
+}
+
+h1 {
+	text-align: center;
 }
 
 h2 {

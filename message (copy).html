@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+
+<style>
+#wrapper{
+	background-color: red ;
+	position:absolute ;
+    top:0px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+  
+ a{
+    color: white;
+  }
+  
+  h1 {
+  	font-family: Helvetica ;
+    font-size:24px;
+    color:#FFFFFF ;
+    text-align: center
+  }
+  
+  h2{
+    font-family: Helvetica ;
+    font-size:18px;
+    color: black;
+    text-align: center;
+  }
+    
+  
+#links {
+	position: absolute;
+	top:60px ;
+	width: 100%;
+    background: black;
+    text-align: center
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  
+ body {
+    background-color: #E0E0E0;
+}
+  
+ form{
+	    background: #fff;
+		float:left ;
+		width: 640px;
+	    margin-left: 500px;
+		padding: 20px;
+		border: 10px ;		
+		border-style: solid;
+		border-color: white;
+		position: absolute;
+		top: 150px ;
+	}
+	
+textarea {
+	border-style: ridge;
+	border-color: white;
+	color: black;
+    width: 640px;
+}
+
+input{
+	border-style: solid;
+    border-color:white;
+    border-bottom-color: black;
+	font-family:Helvetica;
+	font-size: 16px ;
+	color: black;
+	width: 640px;
+}
+ select{
+ 	border-style: ridge;
+	color: black;
+	border-color: black;
+ }
+
+button{
+	font-family: Helvetica;
+	font-weight: bold ;
+	float: left;
+	margin-left: 280px;
+	border:5px;
+	border-style: double;
+	border-top-color: black ;
+	background: white;
+	color: black;
+    width: 100px;
+}
+
+</style>
+
+<div id="wrapper">
+	<h1>UCSI UNIVERSITY</h1>
+</div>
+
+<div id="links" >
+	  <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://iis.ucsiuniversity.edu.my/Student/Default.aspx?PossePresentation=Library&PosseObjectId=1754620">Resources</a></li>
+      <li><a href="#">Messsages</a></li>
+    </ul>
+ </div>
+
+<body>
+
+
+<form action="message.php">
+	<h2>New Message</h2>
+<div id ="name">
+To :<br>
+<input type="text" name="Name" value=" ">
+</div>
+<br>
+
+<div id = "sub">
+Subject: <br>	
+<input type="text" name="subject" value="subject" >
+</div>
+<br>
+
+Message:<br>
+<textarea rows="4" cols="20">
+</textarea><br>
+
+<p>
+	<button type="submit" value="submit">SUBMIT</button>
+	
+</p>
+
+
+</form>
+
+</body>
+
+<footer>
+	
+</footer>
+</html>
